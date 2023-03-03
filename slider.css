@@ -1,0 +1,53 @@
+#outerbox
+{
+ width: 1405px;
+ overflow:hidden;
+ 
+}
+#sliderbox
+{
+    position: relative;
+    width: 4215px;
+    animation-name: slide;
+    animation-duration: 15s;
+    animation-iteration-count:infinite;
+}
+#sliderbox img
+{
+ float: left;
+}
+@keyframes slide
+{
+    0%
+    {
+        left:0px;
+    }
+    20%
+    {
+        left:0px;
+    }
+    26%
+    {
+        left:-1405px;
+    }
+    46%
+    {
+        left:-1405px;
+    }
+    53%
+    {
+        left:-2810px;
+    }
+    70%
+    {
+        left:-2810px;
+    }
+    80%
+    {
+        left:-4215px;
+    }
+    100%
+    {
+        left:-4215px;
+    }
+}
